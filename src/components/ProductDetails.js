@@ -19,7 +19,7 @@ function ProductDetails(){
         <>
             {
                 products ?
-                <div className="container-fluid">
+                <div className="container-fluid my-5">
                     <div className="row align-items-center">
                         <div className="col-md-4 col-12 text-center">
                             <img src={products.image} alt="" className="img-fluid"/>
