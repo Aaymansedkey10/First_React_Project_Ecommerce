@@ -1,0 +1,18 @@
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-img-top {
+    height: 200px;
+    object-fit: contain;
+}
+
+.card .card-body .product-title,
+.product-description {
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
